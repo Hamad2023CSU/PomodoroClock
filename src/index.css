@@ -1,0 +1,23 @@
+body {
+    background-color: pink;
+}
+
+#clock {
+    font-size: 150px;
+    color: black;
+    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+    width: 50%;
+    margin: auto;
+    border: 5px solid rgb(122, 48, 48);
+    text-align: center;
+    background-color: palevioletred;
+    padding: 20px;
+    height: 200px;
+}
+
+#start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
