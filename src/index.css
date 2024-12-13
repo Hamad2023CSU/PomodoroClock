@@ -1,23 +1,36 @@
 body {
-    background-color: pink;
+    background-color: 	#A349A4;
+
+    display: grid;
+    place-items: center;
 }
 
 #clock {
-    font-size: 150px;
-    color: black;
-    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
-    width: 50%;
-    margin: auto;
-    border: 5px solid rgb(122, 48, 48);
-    text-align: center;
-    background-color: palevioletred;
-    padding: 20px;
-    height: 200px;
+    height: 30vw;
+    width: 80vw;
+    margin: 0 auto;
+
+    margin-bottom: 10vw;
+
+    border: 2px solid black;
+    border-radius: 20px;
+
+    background-color: #C8BFE7;
+
+    display: grid;
+    place-items: center;
+
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20vw;
 }
 
 #start {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
+    height: 10vw;
+    width: 10vw;
+
+    background-color: #F2F2F2;
+
+    border: 1px solid black;
+    border-radius: 2vw;
+
 }
