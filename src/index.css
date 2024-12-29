@@ -34,3 +34,27 @@ body {
     border-radius: 2vw;
 
 }
+
+#pause {
+    height: 10vw;
+    width: 10vw;
+
+    background-color: #F2F2F2;
+
+    border: 1px solid black;
+    border-radius: 2vw;
+
+    display: none;
+}
+
+#resume {
+    height: 10vw;
+    width: 10vw;
+
+    background-color: #F2F2F2;
+
+    border: 1px solid black;
+    border-radius: 2vw;
+
+    display: none;
+}
