@@ -71,10 +71,4 @@ function timerFeatureInPage() {
     }
 }
 
-function startClock() {
-    while (true) {
-        timerFeatureInPage();
-    }
-}
-
 timerFeatureInPage();
