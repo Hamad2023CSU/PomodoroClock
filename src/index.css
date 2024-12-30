@@ -58,3 +58,15 @@ body {
 
     display: none;
 }
+
+#reset {
+    height: 10vw;
+    width: 10vw;
+
+    background-color: #F2F2F2;
+
+    border: 1px solid black;
+    border-radius: 2vw;
+
+    display: none;
+}
