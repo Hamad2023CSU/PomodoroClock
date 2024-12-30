@@ -48,29 +48,24 @@ function timerFeatureInPage() {
             }
 
             if (resetFlag) {
-                textDivDisplay.textContent = '20:00';
+                textDivDisplay.textContent = "20:00";
                 clearInterval(timerInterval);
-                return;
-            }
-
-            let textInMinutes = Math.floor(duration / 60);
-            let textInSeconds = duration % 60;
-            let timeInText = `${textInMinutes < 10 ? '0' : ''}${textInMinutes}:${textInSeconds < 10 ? '0' : ''}${textInSeconds}`;
-
-            textDivDisplay.textContent = timeInText;
-
-            if (duration > 0) {
-                duration--;
             }
             else {
-                clearInterval(timerInterval);
-                textDivDisplay.textContent = '00:00';
-                alert("Time is up!");
-            }
-
-            if (resetFlag) {
-                textDivDisplay.textContent = '20:00';
-                clearInterval(timerInterval);
+                let textInMinutes = Math.floor(duration / 60);
+                let textInSeconds = duration % 60;
+                let timeInText = `${textInMinutes < 10 ? '0' : ''}${textInMinutes}:${textInSeconds < 10 ? '0' : ''}${textInSeconds}`;
+    
+                textDivDisplay.textContent = timeInText;
+    
+                if (duration > 0) {
+                    duration--;
+                }
+                else {
+                    clearInterval(timerInterval);
+                    textDivDisplay.textContent = '00:00';
+                    alert("Time is up!");
+                }
             }
         }, 1000);
     }
